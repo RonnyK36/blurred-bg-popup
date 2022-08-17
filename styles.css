@@ -12,6 +12,7 @@ body {
     background-image: url("https://images.unsplash.com/photo-1560762484-813fc97650a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80©");
     background-size: cover;
     text-align: center;
+    transition: filter 0.7s;
 }
 
 h1 {
@@ -57,6 +58,8 @@ h1 {
     background-size: cover;
     box-shadow: 0 4px 8px rgba(255, 255, 255, 0.9);
     color: white;
+    opacity: 1;
+    transition: all 0.7s;
 }
 
 h4 {
@@ -105,4 +108,6 @@ label {
 
 .active.popup-container {
     visibility: hidden;
+    opacity: 0;
+    top: 10%;
 }
